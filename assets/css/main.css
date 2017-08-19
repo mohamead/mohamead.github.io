@@ -21,6 +21,10 @@
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
+	
+	header {
+		text-align: center;
+	}
 
 	body {
 		line-height: 1;
@@ -811,7 +815,11 @@
 	}
 
 	p, ul, ol, dl, table, blockquote, form {
-		margin-bottom: 2em;
+		margin-bottom: 1em;
+	}
+	
+	p1 {
+		font-weight: bold;
 	}
 
 /* Table */
@@ -1564,7 +1572,7 @@
 				#me header > p {
 					font-size: 1.25em;
 				}
-
+		
 		/* Footer */
 
 			#footer {
