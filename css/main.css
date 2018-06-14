@@ -1216,7 +1216,9 @@ span.meta-date{
 
 #map{
 	height:390px;
-
+  width:100%;
+  background-image: url("../img/map.png");
+  background-repeat: no-repeat;
 }
 
 

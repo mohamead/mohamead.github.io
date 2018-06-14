@@ -661,7 +661,6 @@
 	    				<script src="js/modernizr.js" type="text/javascript"></script>
 	    				<script src="js/placeholders.min.js" type="text/javascript"></script>
 	    				<script src="js/script.js" type="text/javascript"></script>
-	    				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOQupe3oTsxdO01jdQF-Lz7FmZqplb2Dk;v=3.exp&amp;sensor=false"></script>
 	    				<script>
 	    					(function($) {
 	    						"use strict";
@@ -677,56 +676,7 @@
 	    								transitionInEasing: 'linear',
 	    								transitionOutEasing: 'linear'	
 	    							});
-	//---------------------------------- Google map location -----------------------------------------//
-	$('#wrapper').bind('easytabs:after', function() {
-		var styles = [
-		{
-			stylers: [
-			{ saturation: -100 }
-			]
-		},{
-			featureType: 'road',
-			elementType: 'geometry',
-			stylers: [
-			{ hue: "#74b7b0" },
-			{ visibility: 'simplified' }
-			]
-		},{
-			featureType: 'road',
-			elementType: 'labels',
-			stylers: [
-			{ visibility: 'on' }
-			]
-		}
-		],
-		lat = 59.920374,
-		lng = 10.683712,
-		customMap = new google.maps.StyledMapType(styles,
-			{name: 'Styled Map'}),
-		mapOptions = {
-			zoom: 14,
-			scrollwheel: false,
-			disableDefaultUI: true,
-			center: new google.maps.LatLng( lat, lng ),
-			mapTypeControlOptions: {
-				mapTypeIds: [google.maps.MapTypeId.ROADMAP]
-			}
-		},
-		map = new google.maps.Map(document.getElementById('map'), mapOptions),
-		myLatlng = new google.maps.LatLng( lat, lng ),
-		marker = new google.maps.Marker({
-			position: myLatlng,
-			map: map,
-			icon: {
-				url: 'img/marker.png',
-				scaledSize: new google.maps.Size(26, 42)
-			}
-		});
-		map.mapTypes.set('map_style', customMap);
-		map.setMapTypeId('map_style');
-	});
-	//---------------------------------- End google map location -----------------------------------------//
-});
+								});
 	    					})(jQuery);
 	    				</script>
 	    				<!-- Google analytics -->
