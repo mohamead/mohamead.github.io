@@ -224,7 +224,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: #558e6a;
+  background: #235b79;
   -webkit-transform: scaleX(0);
   -ms-transform: scaleX(0);
   transform: scaleX(0);
@@ -269,7 +269,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: #558e6a;
+  background: #235b79;
   -webkit-transform: scaleX(1);
   -ms-transform: scaleX(1);
   transform: scaleX(1);
@@ -290,7 +290,7 @@
 
 .main-nav li a.active{
 	color:#ffffff;
-	background: #558e6a;
+	background: #235b79;
 }
 
 
@@ -325,8 +325,8 @@
 
 
 .social a:hover {
-    border: 2px solid #558e6a;
-    color: #558e6a;
+    border: 2px solid #235b79;
+    color: #235b79;
 }
 
 
@@ -454,7 +454,7 @@
 
 
 .skill.dev .progress {
-	border:1px solid #558e6a;
+	border:1px solid #235b79;
 }
 
 .skill.prs .progress {
@@ -480,7 +480,7 @@
 
 
 .skill.dev .progress .percentage {
-	background-color: #558e6a;
+	background-color: #235b79;
 }
 
 
@@ -527,7 +527,7 @@
 }
 
 .skill .title.dev{
-	border: 1px dashed #558e6a;
+	border: 1px dashed #235b79;
 }
 
 .skill .title.prs{
@@ -597,7 +597,7 @@
 
 
 .exp:after{
- 	background: #558e6a;
+ 	background: #235b79;
     border: 3px solid #ffffff;
     content: "";
     height: 15px;
@@ -640,7 +640,7 @@
 
 .exp .hgroup h6 span.current{
 	color:#ffffff;
-	background: #558e6a;
+	background: #235b79;
 	border-radius:6px;
 	-moz-border-radius:6px
 	-webkit-border-radius :6px;
@@ -659,7 +659,7 @@
 .block.service .ico{
 	font-size:30px;
 	margin-bottom:10px;
-	color: #558e6a;
+	color: #235b79;
 }
 
 
@@ -761,7 +761,7 @@
 
 
 .filter li a:hover {
-    color: #558e6a;
+    color: #235b79;
 }
 
 
@@ -769,7 +769,7 @@
 
 
 .filter li a.active {
-    color: #558e6a;
+    color: #235b79;
 }
 
 
@@ -873,7 +873,7 @@
 
 
 .block-nav-work li a:hover{
-	color:#558e6a;
+	color:#235b79;
 }
 
 
@@ -910,7 +910,7 @@
 }
 
 span.meta-date{
- 	background: #558e6a;
+ 	background: #235b79;
     border-radius: 6px;
 	-moz-border-radius:6px;
 	-webkit-border-radius :6px;
@@ -940,7 +940,7 @@ span.meta-date{
 }
 
 .post-meta  li a{
-    color:#558e6a;
+    color:#235b79;
 }
 
 .post-meta i {
@@ -994,7 +994,7 @@ span.meta-date{
 }
 
 .search-form input[type="text"] {
-    background: #558e6a;
+    background: #235b79;
 	color: #ffffff;
     font-size: 12px;
     border: none;
@@ -1122,7 +1122,7 @@ span.meta-date{
   color: #ffffff;
   font-size: 12px;
   text-transform: uppercase;
-  background: #558e6a;
+  background: #235b79;
   border-radius: 6px;
  -moz-border-radius:6px;
  -webkit-border-radius :6px;
@@ -1141,7 +1141,7 @@ span.meta-date{
 .comment-content .date a {
     display: inline-block;
     font-size: 11px;
-	color: #558e6a;
+	color: #235b79;
 	position: relative;
     top: -5px;
 }
@@ -1197,7 +1197,7 @@ span.meta-date{
 
 
 .pagination ul li a.selected {
-    color: #558e6a;
+    color: #235b79;
 }
 
 
@@ -1245,7 +1245,7 @@ span.meta-date{
 .contact-form input[type="text"], .contact-form textarea, .reply-form input[type="text"], .reply-form textarea {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     border: 1px solid #efefef;
-    color: #666666;
+    color: #333333;
     font-size: 13px;
     margin: 0 0 14px;
     outline: 0 none;
@@ -1263,7 +1263,7 @@ span.meta-date{
 
 
 .contact-form textarea, .reply-form textarea {
-    color: #666666;
+    color: #333333;
     width: 100%;
 	font-family:"open_sansregular",Arial,sans-serif;
 }
@@ -1314,7 +1314,7 @@ span.meta-date{
 
 
 .errorForm {
-    border: 1px solid #558e6a !important;
+    border: 1px solid #235b79 !important;
 }
 
 
@@ -1341,7 +1341,7 @@ span.meta-date{
 
 
 .address-info i {
-    background:#558e6a;
+    background:#235b79;
     color: #ffffff;
     display: inline-block;
     font-size: 28px;
@@ -1369,7 +1369,7 @@ span.meta-date{
 
 
 .contact-info a {
-    color: #999999;
+    color: #333333;
 }
 
 
